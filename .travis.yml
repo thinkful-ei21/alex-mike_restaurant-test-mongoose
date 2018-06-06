@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key: fac6d8d8-fbe6-43b8-822d-1c2650325c86
+  app: hidden-garden-51407
+  on:
+    repo: thinkful-ei21/alex-mike_restaurant-test-mongoose
+    branch: feature/with-tests
