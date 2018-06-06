@@ -4,8 +4,9 @@ services:
 - mongodb
 deploy:
   provider: heroku
-  api_key: fac6d8d8-fbe6-43b8-822d-1c2650325c86
-  app: hidden-garden-51407
+  api_key:
+    secure: DaN/HVG49yHHh0/eJVSgZbinynBpUQ4eWtr4VDC5rgOECvuSTW9T06xCXVbmyXdOIyu9sT/86uRFrdVywPpmVXXPkl0UbNcS/sqFg1C9TaE9vRvTqEBHIgUZ7Z77GBMYU6kpR6s8JTAcpZpEz0XBdNeHzNXRFPBm3cDuY22lxfSunDSzN2GHgrTHz7UNlcsp78qwlJqKKc5vG0+kYtMQfZsJ7dYX2K86pC03GcISbD3/cL4Pm2lbIQzTVDz7vldmM/wBBRBZo5UWL7ifxJOfdD23nl7vHZOB/lyZAnfdQxdBXMSXp9rSI/ZmSuqqkO1AD30E31JSfgC+1KF7qACtIapYUI5p9YFgUdBgLRvZpv/w0FzTcm6zELlfQBiI262GyG5zlhg4NgG1/rl4hOsy0LcOF0bTtCjWUWNGXoTPwgTP9W+3nfkBvj00KysVQJ0VO/5fZs7WHK1CyaiofXM9XLDRP4XVYZT4uN9lt4XKFauFekLi09fQiQ/B2h4f1VFo7Xh3oaBUEcGwwzh5fMMmftfD6Y0glKky5N4Z/0wbJB0Nt5xVd79Vv20vbKReBSnZEd5hcC4dS9/0Vg8bFNDeLs8Ny+nUgGdbP6qOhr+ESnz8WPK7aWaXwELl5dxotZ9hfwKEr30vhOoMCOZnY6QUqZvcnrp4jLZNj8W1SdwMItw=
+  app: calm-chamber-51489
   on:
     repo: thinkful-ei21/alex-mike_restaurant-test-mongoose
     branch: feature/with-tests
